@@ -27,7 +27,7 @@
                 "background": "#FCA17D",
                 "background_templates": [
                     "{{ if or (.Working.Changed) (.Staging.Changed) }}#FCA17D{{ end }}",
-                    "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#c5e478{{ end }}",
+                    "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#78E4A9{{ end }}",
                     "{{ if gt .Ahead 0 }}#9370DB{{ end }}",
                     "{{ if gt .Behind 0 }}#9370DB{{ end }}"
                 ],
