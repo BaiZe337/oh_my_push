@@ -34,7 +34,7 @@
                 "foreground": "#ffffff",
                 "powerline_symbol": "\ue0b0",
                 "properties": {
-                    "branch_icon": "\ue725 ",
+                    "branch_icon": "\uE0A0 ",
                     "fetch_status": true,
                     "fetch_upstream_icon": true,
                     "template": " {{ .UpstreamIcon }}{{ .HEAD }}{{ .BranchStatus }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}<#2E8B57> \uf046 {{ .Staging.String }}</>{{ end }} "
